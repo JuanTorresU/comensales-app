@@ -1,0 +1,22 @@
+.editar {
+  border: none;
+  border-radius: 5px;
+  background: #372c2c;
+  color: white;
+  padding: 4px 14px;
+  cursor: pointer;
+  box-sizing: content-box;
+  align-self: flex-end;
+  font-weight: 600;
+}
+.agregar {
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff2929;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  box-sizing: content-box;
+  align-self: flex-end;
+}

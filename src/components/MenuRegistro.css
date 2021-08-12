@@ -1,0 +1,98 @@
+input[type="file"] {
+  display: none;
+}
+
+input,
+textarea,
+select {
+  border-radius: 15px;
+  padding: 15px 10px;
+  margin: 10px 10px;
+  border: none;
+  color: #372c2c;
+}
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  color: #c0c0c0;
+}
+
+label {
+  margin: 0px 0px 0px 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: #372c2c;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-buttons-cancelar {
+  border: solid #ff2929 1px;
+  border-radius: 5px;
+  color: #ff2929;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: 0px 5px 0px 5px;
+  height: 38.5px;
+}
+.form-buttons-cancelar:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ad1f1f;
+  border-color: #ad1f1f;
+}
+
+.form-buttons-agregar {
+  border: none;
+  border-radius: 5px;
+  background: #ff2929;
+  color: white;
+  padding: 10px 50px;
+  cursor: pointer;
+  margin: 0px 5px 0px 5px;
+}
+
+.form-buttons-agregar:hover {
+  background: #ad1f1f;
+}
+
+.plato-detalle-categoria {
+  background-color: white;
+}
+
+.plato {
+  display: flex;
+  flex-wrap: wrap;
+}
+.plato-figura {
+  min-width: 200px;
+}
+.plato-figura-label {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.plato-detalle {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.plato-detalle-descripcion {
+  width: 100%;
+}
+.plato-detalle-calorias {
+  display: flex;
+  align-items: center;
+}
+.plato-detalle-informacion_nutricional {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
