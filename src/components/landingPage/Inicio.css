@@ -1,0 +1,54 @@
+.inicio {
+  background: url("./assets/restaurante-principal.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.inicio__nav {
+  width: inherit;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.inicio__nav > img {
+  margin: 2em 0 0 2em;
+}
+
+.inicio__nav__sesion {
+  background: transparent;
+  font-size: 25px;
+  color: whitesmoke;
+  border: none;
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.inicio__nav__sesion > p {
+  margin-bottom: 12px;
+  padding-bottom: 0px;
+}
+
+.inicio__nav__sesion > div {
+  border: solid;
+  border-width: 6px 0 6px;
+  border-color: #ff2929;
+  border-radius: 6px;
+}
+.inicio__titulo {
+  padding-top: 15%;
+  padding-left: 15%;
+  width: 550px;
+  font-size: 23px;
+  color: white;
+}
+
+.inicio__titulo__boton {
+  background-color: #ff2929;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 12px;
+}

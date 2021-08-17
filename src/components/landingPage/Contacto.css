@@ -1,0 +1,63 @@
+.contacto {
+  display: flex;
+}
+.contacto__formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 44%;
+  background-color: #f5f4f4;
+}
+.contacto__formulario > h2 {
+  margin-top: 30px;
+  font-size: 2.5em;
+  color: #ff2929;
+}
+.contacto__formulario > input {
+  width: 80%;
+  border-radius: 20px;
+  margin: 15px;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+.contacto__formulario > input:focus {
+  border-radius: 20px;
+  outline: 1px solid #ff2929;
+}
+.contacto__formulario > input::placeholder {
+  color: #372c2c;
+}
+.contacto__formulario__submit {
+  font-size: 20px;
+  font-weight: bold;
+  width: 70%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: #ff2929;
+  color: white;
+  padding: 10px 50px;
+  cursor: pointer;
+  margin: 25px 0px 50px 0px;
+}
+.contacto__formulario__submit:hover {
+  background: #ad1f1f;
+}
+
+.contacto__imagen {
+  width: 66%;
+  background-image: url("./assets/restaurante-contacto.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.contacto__imagen > span {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 80px;
+  background-color: rgb(0, 0, 0, 0.5);
+}

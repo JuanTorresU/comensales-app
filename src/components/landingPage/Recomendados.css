@@ -1,0 +1,14 @@
+.recomendados {
+  background: #f5f4f4 0% 0% no-repeat padding-box;
+  height: 400px;
+}
+.recomendados__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.recomendados > h2 {
+  padding-top: 30px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}

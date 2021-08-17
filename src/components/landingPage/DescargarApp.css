@@ -1,0 +1,32 @@
+.descargar-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.descargar-app__imagen {
+  padding-top: 60px;
+}
+.descargar-app__imagen > img {
+  height: 600px;
+}
+.descargar-app__descripcion {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px 0px;
+}
+.descargar-app__descripcion > h2 {
+  color: #ff2929;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.descargar-app__descripcion__logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: inherit;
+}
